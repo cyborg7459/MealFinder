@@ -120,6 +120,7 @@ body {
 
     .container {
         width: 100%;
+        padding: 0px;
     }
 }
 
@@ -132,7 +133,13 @@ body {
     .display-2 {
         font-size: 4rem;
     }
+    .display-1 {
+        font-size: 4.3rem;
+    }
 
+    .col-xl-3 {
+        padding: 0;
+    }
     #recipe .display-2 {
         margin-bottom: 40px!important;
     }
@@ -142,6 +149,6 @@ body {
     }
 
     #food-inp {
-        width: 400px!important;
+        width: 300px!important;
     }
 }
